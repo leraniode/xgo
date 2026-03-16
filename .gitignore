@@ -1,0 +1,25 @@
+# Binaries
+*.exe
+*.out
+*.test
+
+# Go workspace (local only — not committed)
+go.work
+go.work.sum
+
+# Build output
+dist/
+bin/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Commit tracker — local only, not part of repo history
+COMMIT.md
